@@ -4,9 +4,47 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9444bf65d139b5a3bd22b42c29c75cb2",
-    "content-hash": "e8188e6a0f38a4d8f8d315f4d52b48ac",
+    "hash": "95fcaa7706879e694c7c880066a6292f",
+    "content-hash": "23eafb3ccc6cd87187ea66f61fbd3f35",
     "packages": [
+        {
+            "name": "cakedc/migrations",
+            "version": "2.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CakeDC/migrations.git",
+                "reference": "aecca8fda1b3d38db359493c0387172a590e5bf8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CakeDC/migrations/zipball/aecca8fda1b3d38db359493c0387172a590e5bf8",
+                "reference": "aecca8fda1b3d38db359493c0387172a590e5bf8",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "php": ">=5.2.8"
+            },
+            "type": "cakephp-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cake Development Corporation",
+                    "email": "team@cakedc.com",
+                    "homepage": "http://cakedc.com"
+                }
+            ],
+            "description": "Migrations Plugin for CakePHP",
+            "homepage": "http://cakedc.com",
+            "keywords": [
+                "cakephp",
+                "migrations"
+            ],
+            "time": "2016-10-04 09:29:47"
+        },
         {
             "name": "cakephp/cakephp",
             "version": "2.9.6",
@@ -49,96 +87,6 @@
                 "framework"
             ],
             "time": "2017-03-01 03:27:17"
-        }
-    ],
-    "packages-dev": [
-        {
-            "name": "cakephp/cakephp-codesniffer",
-            "version": "1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/cakephp/cakephp-codesniffer.git",
-                "reference": "63c50599bc28341519e9a0f3522056d3bc1feb4b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/cakephp-codesniffer/zipball/63c50599bc28341519e9a0f3522056d3bc1feb4b",
-                "reference": "63c50599bc28341519e9a0f3522056d3bc1feb4b",
-                "shasum": ""
-            },
-            "require": {
-                "squizlabs/php_codesniffer": "^1.4.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.1.0"
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "CakePHP Community",
-                    "homepage": "https://github.com/cakephp/cakephp-codesniffer/graphs/contributors"
-                }
-            ],
-            "description": "CakePHP CodeSniffer Standards",
-            "homepage": "http://cakephp.org",
-            "keywords": [
-                "codesniffer",
-                "framework"
-            ],
-            "time": "2016-10-23 18:11:16"
-        },
-        {
-            "name": "cakephp/debug_kit",
-            "version": "2.2.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/cakephp/debug_kit.git",
-                "reference": "6c318a779b63bd567fd17811aecc7654a74bbec5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/debug_kit/zipball/6c318a779b63bd567fd17811aecc7654a74bbec5",
-                "reference": "6c318a779b63bd567fd17811aecc7654a74bbec5",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "*",
-                "php": ">=5.3.0"
-            },
-            "type": "cakephp-plugin",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.2.x-dev"
-                },
-                "installer-name": "DebugKit"
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mark Story",
-                    "homepage": "http://mark-story.com",
-                    "role": "Author"
-                },
-                {
-                    "name": "CakePHP Community",
-                    "homepage": "https://github.com/cakephp/debug_kit/graphs/contributors"
-                }
-            ],
-            "description": "CakePHP Debug Kit",
-            "homepage": "https://github.com/cakephp/debug_kit",
-            "keywords": [
-                "cakephp",
-                "debug",
-                "kit"
-            ],
-            "time": "2015-09-13 20:07:55"
         },
         {
             "name": "composer/installers",
@@ -246,6 +194,96 @@
                 "zikula"
             ],
             "time": "2016-08-13 20:53:52"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "cakephp/cakephp-codesniffer",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cakephp/cakephp-codesniffer.git",
+                "reference": "63c50599bc28341519e9a0f3522056d3bc1feb4b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cakephp/cakephp-codesniffer/zipball/63c50599bc28341519e9a0f3522056d3bc1feb4b",
+                "reference": "63c50599bc28341519e9a0f3522056d3bc1feb4b",
+                "shasum": ""
+            },
+            "require": {
+                "squizlabs/php_codesniffer": "^1.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.1.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "CakePHP Community",
+                    "homepage": "https://github.com/cakephp/cakephp-codesniffer/graphs/contributors"
+                }
+            ],
+            "description": "CakePHP CodeSniffer Standards",
+            "homepage": "http://cakephp.org",
+            "keywords": [
+                "codesniffer",
+                "framework"
+            ],
+            "time": "2016-10-23 18:11:16"
+        },
+        {
+            "name": "cakephp/debug_kit",
+            "version": "2.2.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cakephp/debug_kit.git",
+                "reference": "6c318a779b63bd567fd17811aecc7654a74bbec5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cakephp/debug_kit/zipball/6c318a779b63bd567fd17811aecc7654a74bbec5",
+                "reference": "6c318a779b63bd567fd17811aecc7654a74bbec5",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "cakephp-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2.x-dev"
+                },
+                "installer-name": "DebugKit"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Story",
+                    "homepage": "http://mark-story.com",
+                    "role": "Author"
+                },
+                {
+                    "name": "CakePHP Community",
+                    "homepage": "https://github.com/cakephp/debug_kit/graphs/contributors"
+                }
+            ],
+            "description": "CakePHP Debug Kit",
+            "homepage": "https://github.com/cakephp/debug_kit",
+            "keywords": [
+                "cakephp",
+                "debug",
+                "kit"
+            ],
+            "time": "2015-09-13 20:07:55"
         },
         {
             "name": "phpunit/php-code-coverage",
