@@ -1,40 +1,36 @@
-2017-03-10 07:39:52 Error: [MissingControllerException] Controller class IndexController could not be found.
+2017-03-13 17:47:35 Error: [MissingControllerException] Controller class Labo4Controller could not be found.
 Exception Attributes: array (
-  'class' => 'IndexController',
+  'class' => 'Labo4Controller',
   'plugin' => NULL,
 )
-Request URL: /index
+Request URL: /labo4/cakepack/myapp/labo4/cakepack/
 Stack Trace:
-#0 C:\Users\ueda\app\smzpack\myapp\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 C:\Users\ueda\app\smzpack\myapp\index.php(8): require('C:\\Users\\ueda\\a...')
-#2 {main}
-2017-03-10 07:40:02 Error: [MissingControllerException] Controller class HomeController could not be found.
+#0 /Users/uedatakeshi/Sites/labo4/cakepack/myapp/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-03-13 17:47:36 Error: [MissingControllerException] Controller class Labo4Controller could not be found.
 Exception Attributes: array (
-  'class' => 'HomeController',
+  'class' => 'Labo4Controller',
   'plugin' => NULL,
 )
-Request URL: /home/display
+Request URL: /labo4/cakepack/myapp/labo4/cakepack/
 Stack Trace:
-#0 C:\Users\ueda\app\smzpack\myapp\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 C:\Users\ueda\app\smzpack\myapp\index.php(8): require('C:\\Users\\ueda\\a...')
-#2 {main}
-2017-03-10 07:50:33 Error: [MissingControllerException] Controller class MyappController could not be found.
+#0 /Users/uedatakeshi/Sites/labo4/cakepack/myapp/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-03-13 17:48:52 Error: [MissingControllerException] Controller class Labo4Controller could not be found.
 Exception Attributes: array (
-  'class' => 'MyappController',
+  'class' => 'Labo4Controller',
   'plugin' => NULL,
 )
-Request URL: /myapp
+Request URL: /labo4/cakepack/myapp/labo4/cakepack/
 Stack Trace:
-#0 C:\Users\ueda\app\smzpack\myapp\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 C:\Users\ueda\app\smzpack\myapp\index.php(8): require('C:\\Users\\ueda\\a...')
-#2 {main}
-2017-03-10 08:10:37 Error: [MissingControllerException] Controller class MyappController could not be found.
+#0 /Users/uedatakeshi/Sites/labo4/cakepack/myapp/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-03-13 17:52:05 Error: [MissingControllerException] Controller class UsersController could not be found.
 Exception Attributes: array (
-  'class' => 'MyappController',
+  'class' => 'UsersController',
   'plugin' => NULL,
 )
-Request URL: /myapp
+Request URL: /labo4/cakepack/myapp/users/add
 Stack Trace:
-#0 C:\Users\ueda\app\smzpack\myapp\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 C:\Users\ueda\app\smzpack\myapp\index.php(8): require('C:\\Users\\ueda\\a...')
-#2 {main}
+#0 /Users/uedatakeshi/Sites/labo4/cakepack/myapp/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

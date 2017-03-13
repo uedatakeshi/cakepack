@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "95fcaa7706879e694c7c880066a6292f",
     "content-hash": "23eafb3ccc6cd87187ea66f61fbd3f35",
     "packages": [
         {
@@ -43,7 +42,7 @@
                 "cakephp",
                 "migrations"
             ],
-            "time": "2016-10-04 09:29:47"
+            "time": "2016-10-04T09:29:47+00:00"
         },
         {
             "name": "cakephp/cakephp",
@@ -86,7 +85,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2017-03-01 03:27:17"
+            "time": "2017-03-01T03:27:17+00:00"
         },
         {
             "name": "composer/installers",
@@ -193,7 +192,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-08-13 20:53:52"
+            "time": "2016-08-13T20:53:52+00:00"
         }
     ],
     "packages-dev": [
@@ -234,7 +233,7 @@
                 "codesniffer",
                 "framework"
             ],
-            "time": "2016-10-23 18:11:16"
+            "time": "2016-10-23T18:11:16+00:00"
         },
         {
             "name": "cakephp/debug_kit",
@@ -283,7 +282,7 @@
                 "debug",
                 "kit"
             ],
-            "time": "2015-09-13 20:07:55"
+            "time": "2015-09-13T20:07:55+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -344,7 +343,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-09-02 10:13:14"
+            "time": "2014-09-02T10:13:14+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -391,7 +390,7 @@
                 "filesystem",
                 "iterator"
             ],
-            "time": "2016-10-03 07:40:28"
+            "time": "2016-10-03T07:40:28+00:00"
         },
         {
             "name": "phpunit/php-text-template",
@@ -432,7 +431,7 @@
             "keywords": [
                 "template"
             ],
-            "time": "2015-06-21 13:50:34"
+            "time": "2015-06-21T13:50:34+00:00"
         },
         {
             "name": "phpunit/php-timer",
@@ -481,7 +480,7 @@
             "keywords": [
                 "timer"
             ],
-            "time": "2017-02-26 11:10:40"
+            "time": "2017-02-26T11:10:40+00:00"
         },
         {
             "name": "phpunit/php-token-stream",
@@ -531,7 +530,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2014-03-03 05:10:30"
+            "time": "2014-03-03T05:10:30+00:00"
         },
         {
             "name": "phpunit/phpunit",
@@ -604,7 +603,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-10-17 09:04:17"
+            "time": "2014-10-17T09:04:17+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -653,7 +652,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2013-01-13 10:24:48"
+            "time": "2013-01-13T10:24:48+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -728,7 +727,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2014-12-04 22:32:15"
+            "time": "2014-12-04T22:32:15+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -777,7 +776,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-03-01 18:13:50"
+            "time": "2017-03-01T18:13:50+00:00"
         }
     ],
     "aliases": [],
